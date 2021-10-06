@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.servlet;
+package br.com.eduardopagliaroni.gerenciador.servlet;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.com.alura.gerenciador.acao.Acao;
+import br.com.eduardopagliaroni.gerenciador.acao.Acao;
 
 //@WebServlet(urlPatterns="/entrada")
 public class UnicaEntradaServlet extends HttpServlet {
@@ -20,7 +20,7 @@ public class UnicaEntradaServlet extends HttpServlet {
 
 		String paramAcao = request.getParameter("acao");
 	
-		String nomeDaClasse = "br.com.alura.gerenciador.acao." + paramAcao;
+		String nomeDaClasse = "br.com.eduardopagliaroni.gerenciador.acao." + paramAcao;
 		
 		String nome;
 		try {

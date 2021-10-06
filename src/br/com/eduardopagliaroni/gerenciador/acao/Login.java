@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.acao;
+package br.com.eduardopagliaroni.gerenciador.acao;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.com.alura.gerenciador.modelo.Banco;
-import br.com.alura.gerenciador.modelo.Usuario;
+import br.com.eduardopagliaroni.gerenciador.modelo.Banco;
+import br.com.eduardopagliaroni.gerenciador.modelo.Usuario;
 
 public class Login implements Acao {
 

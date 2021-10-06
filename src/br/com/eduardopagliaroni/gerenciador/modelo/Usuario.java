@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.modelo;
+package br.com.eduardopagliaroni.gerenciador.modelo;
 
 public class Usuario {
 

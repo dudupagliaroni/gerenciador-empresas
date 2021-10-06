@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.servlet;
+package br.com.eduardopagliaroni.gerenciador.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 import com.thoughtworks.xstream.XStream;
 
-import br.com.alura.gerenciador.modelo.Banco;
-import br.com.alura.gerenciador.modelo.Empresa;
+import br.com.eduardopagliaroni.gerenciador.modelo.Banco;
+import br.com.eduardopagliaroni.gerenciador.modelo.Empresa;
 
 
 @WebServlet("/empresas")
